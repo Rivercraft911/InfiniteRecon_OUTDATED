@@ -3,7 +3,7 @@
 Hello! This repo is officially outdated! See the new design and repo here:
 
 
-Have you ever wanted to start your ethically dubious surveillance empire? InfiniteRecon is a better Infinity transmitter than the ones old intelligence organizations used to use. This modern take on room monitoring brings high-tech features to your surveillance needs!
+Have you ever wanted to start your ethically dubious surveillance empire? InfiniteRecon is a better Infinity transmitter than the ones old intelligence organizations used to use. 
 
 InfiniteRecon is a real-time audio streaming and analysis system built using an ESP32-S3 microcontroller with an INMP441 I2S MEMS microphone and a Raspberry Pi server. The system captures ambient room audio, streams it to the Raspberry Pi, and processes it for speech-to-text transcription, speaker identification, and topic-based alerting. A web dashboard running on the Raspberry Pi lets you view live transcriptions and configure alert keywords, SMS notifications, and optional LLM API integration.
 
@@ -20,7 +20,7 @@ InfiniteRecon is a real-time audio streaming and analysis system built using an 
 - **Web Dashboard:**  
   A Flask web server running on the Raspberry Pi displays live transcriptions and allows you to change configuration settings in real time.
 - **LLM API Integration:**  
-  Optionally integrates with LLM providers (OpenAI, DeepSeek, Anthropic) to enrich transcriptions. Easily toggle LLM usage and select the provider via the dashboard.
+  Optionally integrates with LLM providers (OpenAI, DeepSeek, Anthropic) to enrich transcriptions.
 
 ## Hardware Components
 
